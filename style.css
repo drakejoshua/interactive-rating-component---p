@@ -1,0 +1,218 @@
+/* created by mabawonku joshua */
+
+
+/* base styles */
+body{
+    margin: 0px;
+    background-color: var(--very-dark-blue);
+    display: grid;
+    grid-template-columns: 29%;
+    grid-template-rows: 40%;
+    grid-template-areas: 'ctn';
+    justify-content: center;
+}
+* {
+    box-sizing: border-box;
+}
+:root{
+    font-size: 10px;
+    --text-large-weight: 700;
+    --text-small-weight: 400;
+    --color-primary: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+}
+
+
+/* for the rating box */
+div#rating-box, div#thankYou-box {
+    background-color: var(--Dark-Blue);
+    padding: 5rem 4rem;
+    border-radius: 3.5rem;
+    grid-area: ctn;
+}
+div#image-box {
+    width: 4rem;
+    height: 4rem;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    margin: 0rem 0rem 3.5rem;
+    background-color: var(--very-dark-blue);
+}
+
+div#rating-box h1 {
+    font-weight: var(--text-large-weight);
+    font-size: 2.5rem;
+    color: var(--White);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div#rating-box p {
+    font-weight: var(--text-small-weight);
+    font-size: 1.5rem;
+    color: var(--Medium-Grey);
+    font-family: "segoe ui", Helvetica, sans-serif;
+    text-align: left;
+    margin: 2rem 0rem 2rem;
+}
+
+div#review-options {
+    display: grid;
+    grid-template-columns: 17% 17% 17% 17% 17%;
+    grid-template-rows: 100%;
+    grid-auto-columns: auto;
+    justify-content: space-between;
+}
+
+div#review-options .review-option{
+    display: inline-block;
+    padding: 1.8rem;
+    color: var(--Medium-Grey);
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 5rem;
+    width: 5rem;
+    background-color: var(--very-dark-blue);
+    border-radius: 2.5rem;
+}
+
+/* active state for the above */
+div#review-options .review-option:hover {
+    cursor: grab;
+    color: var(--White);
+    background-color: var(--color-primary);
+}
+
+div#rating-box button {
+    display: block;
+    width: 100%;
+    font-size: 1.7rem;
+    padding: 1.15rem;
+    border: none;
+    outline: none;
+    border-radius: 1.7rem;
+    color: var(--White);
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    background-color: var(--color-primary);
+    margin: 3rem 0rem 0rem;
+}
+
+/* active state for the above */
+div#rating-box button:hover {
+    cursor: grab;
+    color: var(--color-primary);
+    background-color: var(--White);
+}
+
+/* for the thank you box */
+div#thankYou-box img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+div#thankYou-box h1 {
+    font-weight: var(--text-large-weight);
+    font-size: 2.5rem;
+    color: var(--White);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div#thankYou-box p {
+    font-weight: var(--text-small-weight);
+    font-size: 1.5rem;
+    color: var(--Medium-Grey);
+    font-family: "segoe ui", Helvetica, sans-serif;
+    text-align: left;
+    margin: 2rem 0rem 2rem;
+    text-align: center;
+}
+
+div#thankYou-box #rating-selection {
+    display: block;
+    padding: 0.9rem;
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--very-dark-blue);
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    margin: 3rem auto 3rem;
+    border-radius: 1.5rem;
+}
+
+
+
+
+/* breakpoints on widths */
+
+@media only screen and ( max-width:428px ) and ( min-width:0px ){
+    body{
+        grid-template-columns: 99%;
+    }
+    div#thankYou-box #rating-selection {
+        width: 75%;
+    }
+    div#rating-box, div#thankYou-box {
+        padding: 3rem 2rem;
+    }
+}
+
+
+@media only screen and ( max-width:768px ) and ( min-width:429px ){
+    body{
+        grid-template-columns: 90%;
+    }
+    div#thankYou-box #rating-selection {
+        width: 57%;
+    }
+}
+
+
+@media only screen and ( max-width:1024px ) and ( min-width:769px ){
+    body{
+        grid-template-columns: 45%;
+    }
+    div#thankYou-box #rating-selection {
+        width: 65%;
+    }
+}
+
+
+@media only screen and ( max-width:1200px ) and ( min-width:1025px ){
+    body{
+        grid-template-columns: 34%;
+    }
+    div#thankYou-box #rating-selection {
+        width: 65%;
+    }
+}
+
+/* breakpoints on heights */
+
+/* for extra short devices */
+@media only screen and ( max-height:600px ) and ( min-height:0px ){
+    body{
+        margin-top: 7%;
+    }
+}
+
+/* for medium-heighted devices */
+@media only screen and ( max-height:900px ) and ( min-height:601px ){
+    body{
+        margin-top: 22%;
+    }
+}
+
+/* for tall devices */
+@media only screen and ( max-height:1400px ) and ( min-height:901px ){
+    body{
+        margin-top: 25%;
+    }
+}
