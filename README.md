@@ -1,6 +1,6 @@
 # Frontend Mentor - Order summary card solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![github](https://github.com/drakejoshua/order-summary-component/blob/main/solution-screenshot.jpg)
+![github](https://drakejoshua.github.io/interactive-rating-component---p/solution-screenshot.jpg)
 
 ### Links
 
