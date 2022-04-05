@@ -1,4 +1,4 @@
-# Frontend Mentor - Order summary card solution
+# Frontend Mentor - Interactive rating component solution
 
 This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -35,7 +35,7 @@ Users should be able to:
 - Live Site URL: [https://drakejoshua.github.io/order-summary-component]
 
 ## My process
-Firstly had to mark up the whole html and then applied a stylesheet. Then i added some javascript as it helped insaving the user's rating.
+Firstly had to mark up the whole html and then applied a stylesheet. Then i added some javascript as it helped in saving the user's rating.
 
 
 ### Built with
