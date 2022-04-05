@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/drakejoshua/order-summary-component]
-- Live Site URL: [https://drakejoshua.github.io/order-summary-component]
+- Solution URL: [https://github.com/drakejoshua/interactive-rating-component---p/]
+- Live Site URL: [https://drakejoshua.github.io/interactive-rating-component---p/]
 
 ## My process
 Firstly had to mark up the whole html and then applied a stylesheet. Then i added some javascript as it helped in saving the user's rating.
